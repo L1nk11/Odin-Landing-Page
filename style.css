@@ -1,0 +1,95 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    font-family: Roboto;
+}
+
+/* header */
+
+.header {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .tittle {
+    margin: 0 5%;
+    color: #f9faf8;
+    font-weight: 900;
+    font-size: 24px;
+}
+
+.header .links {
+    margin: 0 5%;
+}
+
+.header .links ul{
+    display: flex;
+    list-style-type: none;
+}
+
+li {
+    margin: 0 5px;
+}
+
+li a {
+    color: #f9faf8;
+    text-decoration: none;
+}
+
+/* body */
+
+    /* sector 1 */
+
+.body .sector#top{
+    display: flex;
+    background-color: #1F2937;
+    color: white;
+}
+
+        /* left side */
+
+.body .sector#top .content{
+    margin: 5% 5%;
+}
+
+.body .sector#top .content .left {
+    display: flex;
+    flex-direction: column;
+}
+
+.body .sector#top .content .left .tittle{
+    font-weight: bolder;
+    font-size: 48px;
+}
+
+.body .sector#top .content .left .desc {
+    color: #f9faf8;
+}
+
+        /* right side */
+
+.body .sector#top .right{
+    display: flex;
+    flex: 1;
+}
+
+.body .sector#top .right .img{
+    background-color: #6D747D;
+    width: 320px;
+    height: 180px;
+}
+
+.body .sector#top .right .img p{
+    text-align: center;
+    vertical-align: middle;
+    line-height: 130px;
+}/* need to refactor this bit */
+
+
+
+/* end body */
