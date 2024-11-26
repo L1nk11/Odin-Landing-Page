@@ -98,6 +98,10 @@ li a {
 
     /* sector 2 */
 
+.body .sector#mid-top {
+    margin-bottom: 5%;
+}
+
 .body .sector#mid-top .tittle{
     display: flex;
     align-items: center;
@@ -142,7 +146,65 @@ li a {
     /* sector 3 */
 
 .body .sector#mid-bot {
-    
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    padding: 10%;
+    align-items: center;
+    justify-content: center;
+}
+
+.body .sector#mid-bot .quote {
+    font-style: italic;
+    font-size: 36px;
+    font-weight: lighter;
+    color: #1f2937;
+    text-align: justify;
+}
+
+.body .sector#mid-bot .autor {
+    display: flex;
+    margin-left: auto;
+}
+
+    /* sector 4 */
+
+.body .sector#bot {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5%;
+    padding: 5% 10%;
+    background-color: #3882f6;
+    color: #f9faf8;
+}
+
+.body .sector#bot .text .tittle {
+    font-weight: bolder;
+    font-size: 24px;
+}
+
+.body .sector#bot .button button {
+    border-radius: 5px;
+    border-color: #f9faf8;
+    background-color: transparent;
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+/* footer */
+
+.footer {
+    display: flex;
+    background-color: #1F2937;
+    justify-content: center;
+    align-items: center;
+    color: #f9faf8;
+}
+
+.footer a{
+    text-decoration: none;
+    color: #f9faf8;
 }
 
 /* end body */
