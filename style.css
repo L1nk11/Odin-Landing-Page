@@ -49,26 +49,33 @@ li a {
     display: flex;
     background-color: #1F2937;
     color: white;
+    padding: 5% 5%;
 }
 
         /* left side */
 
-.body .sector#top .content{
-    margin: 5% 5%;
-}
-
-.body .sector#top .content .left {
+.body .sector#top .left {
     display: flex;
     flex-direction: column;
 }
 
-.body .sector#top .content .left .tittle{
+.body .sector#top .left .tittle{
     font-weight: bolder;
     font-size: 48px;
 }
 
-.body .sector#top .content .left .desc {
+.body .sector#top .left .desc {
     color: #f9faf8;
+}
+
+.body .sector#top .left .buttons button{
+    background-color: #3882f6;
+    color: #f9faf8;
+    border: none;
+    border-radius: 5px;
+    padding: 6px 18px;
+    font-size: 24px;
+    font-weight: 900;
 }
 
         /* right side */
@@ -76,20 +83,66 @@ li a {
 .body .sector#top .right{
     display: flex;
     flex: 1;
+    justify-content: right;
+    align-items: center;
 }
 
 .body .sector#top .right .img{
     background-color: #6D747D;
     width: 320px;
     height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.body .sector#top .right .img p{
+    /* sector 2 */
+
+.body .sector#mid-top .tittle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin: 20px;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+
+.body .sector#mid-top .samples {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0px 40px;
+}
+
+.body .sector#mid-top .samples .sample {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.body .sector#mid-top .samples .sample .img-holder {
+    border: 2px solid;
+    border-color: #3882f6;
+    border-radius: 10px;
+    background-color: transparent;
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+}
+
+.body .sector#mid-top .samples .sample .text-holder {
+    width: 150px;
     text-align: center;
-    vertical-align: middle;
-    line-height: 130px;
-}/* need to refactor this bit */
+    color: #1F2937;
+    font-weight: lighter;
+}
 
+    /* sector 3 */
 
+.body .sector#mid-bot {
+    
+}
 
 /* end body */
